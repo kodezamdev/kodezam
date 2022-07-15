@@ -14,8 +14,8 @@ export default function Home() {
           name="google-site-verification"
           content="R7cyCgr7mGMdhXAsPYLk1LLRYvtv87-yCpQTx2jubdw"
         />
-        <link rel="shortcut icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
         <meta
           property="og:site_name"
           content="Kodezam - A software development company."

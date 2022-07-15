@@ -27,9 +27,11 @@ export default function Navbar() {
               <Link href="/blog">Blog</Link>
             </li>
           </ul>
-          <button className="text-blue-700 py-2 px-5 border border-blue-700 rounded hover:text-blue-600 hover:border-blue-600">
-            Contact Us
-          </button>
+          <Link href="/contact-us">
+            <span className="text-blue-700 cursor-pointer py-2 px-5 border border-blue-700 rounded hover:text-blue-600 hover:border-blue-600">
+              Contact Us
+            </span>
+          </Link>
         </nav>
       </div>
     </header>
