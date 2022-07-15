@@ -247,13 +247,18 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 
 
 const Logo = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-            src: "/logo.png",
-            alt: "Kodezam",
-            width: "136",
-            height: "20.3"
-        })
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                children: "logo"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: "/logo.png",
+                alt: "Kodezam",
+                width: "136",
+                height: "20.3"
+            })
+        ]
     });
 };
 
@@ -385,13 +390,6 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head.js");
-
-/***/ }),
-
-/***/ 3539:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/i18n/detect-domain-locale.js");
 
 /***/ }),
 
@@ -542,7 +540,7 @@ module.exports = import("framer-motion");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [686,675,505,664], () => (__webpack_exec__(8484)));
+var __webpack_exports__ = __webpack_require__.X(0, [505,61], () => (__webpack_exec__(8484)));
 module.exports = __webpack_exports__;
 
 })();

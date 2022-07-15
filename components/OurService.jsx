@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import EcommerceSolution from "./Icons/EcommerceSolution";
 import ErpSolution from "./Icons/ErpSolution";
 import MobileDevlopment from "./Icons/MobileDevlopment";
