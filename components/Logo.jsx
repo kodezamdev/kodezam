@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Logo = () => {
   return (
     <>
-      <Image src="/logo.png" alt="Kodezam" width="136" height="20.3" />
+      <img src="/logo.png" alt="Kodezam" className="w-32 " />
     </>
   );
 };

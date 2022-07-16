@@ -9,11 +9,11 @@ import ServiceCard from "./ServiceCard";
 
 export default function OurService() {
   return (
-    <div className="container mx-auto px-10">
+    <div className="container mx-auto px-8 sm:px-16">
       <div className="text-center mt-12 mb-10">
         <h1 className="text-xl mb-5">OUR SERVICES</h1>
         <div className="flex justify-center">
-          <p className="w-1/2 text-center text-gray-700">
+          <p className="w-full md:w-1/2 text-center text-gray-700">
             Kodezam has solid experience and expertise for development of
             corporations and industries that need customized software. Our
             qualified and experienced software development team is ready for
@@ -21,7 +21,7 @@ export default function OurService() {
           </p>
         </div>
       </div>
-      <section className="py-2 grid grid-cols-3 gap-x-12 gap-y-10">
+      <section className="py-2 grid sm:grid-cols-4 grid-cols-1 gap-y-4 sm:gap-x-5 sm:gap-y-5">
         <ServiceCard title="Web Development">
           <Webdevelopment />
         </ServiceCard>

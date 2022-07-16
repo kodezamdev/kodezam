@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply text-gray-900 bg-gray-100;
+html,
+body {
+  @apply antialiased text-slate-900 dark:text-slate-400 bg-slate-50 dark:bg-slate-900;
 }
