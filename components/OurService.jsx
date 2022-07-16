@@ -9,7 +9,7 @@ import ServiceCard from "./ServiceCard";
 
 export default function OurService() {
   return (
-    <div className="container mx-auto px-8 sm:px-16">
+    <div className="container mx-auto px-8">
       <div className="text-center mt-12 mb-10">
         <h1 className="text-4xl mb-5 font-medium">
           We have <span className="text-blue-700">Amazing Service</span>.
