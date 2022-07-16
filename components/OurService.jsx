@@ -11,7 +11,9 @@ export default function OurService() {
   return (
     <div className="container mx-auto px-8 sm:px-16">
       <div className="text-center mt-12 mb-10">
-        <h1 className="text-xl mb-5">OUR SERVICES</h1>
+        <h1 className="text-4xl mb-5 font-medium">
+          We have <span className="text-blue-700">Amazing Service</span>.
+        </h1>
         <div className="flex justify-center">
           <p className="w-full md:w-1/2 text-center text-gray-700">
             Kodezam has solid experience and expertise for development of

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Hero from "../components/Hero";
 import LetsMake from "../components/LetsMake";
 import OurClient from "../components/OurClient";
 import OurService from "../components/OurService";
@@ -48,6 +49,7 @@ export default function Home() {
           content="Bangladeshi Software Company, Web Design, Web Development, Software development, Mobile Application development,E-commerce Solution,E-commerce Website development,ERP solution,Laravel,vuejs"
         />
       </Head>
+      <Hero />
       <OurService />
       <LetsMake />
       <WorkingProcess />
