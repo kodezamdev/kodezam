@@ -32,37 +32,39 @@ export default function OurService() {
         </ServiceCard>
         <ServiceCard
           title="Web Development"
-          description="Our dedicated team of developers specializes in developing reliable, easy-to-consume, and well-documented custom APIs."
+          description="We carry more than just good coding 
+skills. Our experience makes us stand 
+out from other web development."
         >
           <Webdevelopment />
         </ServiceCard>
         <ServiceCard
           title="Mobile Development"
-          description="Our dedicated team of developers specializes in developing reliable, easy-to-consume, and well-documented custom APIs."
+          description="Create complex enterprise software, ensure reliable software integration, modernise your legacy system."
         >
           <MobileDevlopment />
         </ServiceCard>
         <ServiceCard
           title="Software Development"
-          description="Our dedicated team of developers specializes in developing reliable, easy-to-consume, and well-documented custom APIs."
+          description="We build functional software for your businesses totally customized according to your business structure."
         >
           <SoftwareDevelopment />
         </ServiceCard>
         <ServiceCard
           title="E-commerce Solution"
-          description="Our dedicated team of developers specializes in developing reliable, easy-to-consume, and well-documented custom APIs."
+          description="We offer a diverse range of ecommerce software, packages & shopping carts that guarantee best value for your investment."
         >
           <EcommerceSolution />
         </ServiceCard>
         <ServiceCard
           title="ERP Solution"
-          description="Our dedicated team of developers specializes in developing reliable, easy-to-consume, and well-documented custom APIs."
+          description="Ensuring cost reduction and detailed forecasts, our ERP systems yield resilience and agility to your business."
         >
           <ErpSolution />
         </ServiceCard>
         <ServiceCard
           title="ERP Solution"
-          description="Our dedicated team of developers specializes in developing reliable, easy-to-consume, and well-documented custom APIs."
+          description="Build the product you need on time with an experienced team that uses a clear and effective design process."
         >
           <ErpSolution />
         </ServiceCard>

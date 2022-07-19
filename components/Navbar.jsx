@@ -5,27 +5,37 @@ import { MenuIcon } from "@heroicons/react/outline";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-40 w-full backdrop-blur flex py-3 sm:py-4 items-center transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10  bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent">
+    <header className="sticky top-0 z-40 w-full backdrop-blur flex py-3 sm:py-4 items-center transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10  bg-white/95 supports-backdrop-blur:bg-white/60">
       <div className="w-full sm:container sm:mx-auto px-5 sm:px-16 flex items-center justify-between ">
         <div className="w-1/2 sm:w-1/6">
           <Logo />
         </div>
         <nav className="md:flex md:flex-1 md:justify-end hidden space-x-32 items-center">
-          <ul className="flex space-x-10 py-2 items-center text-base leading-6 font-semibold text-slate-700 dark:text-slate-200">
+          <ul className="flex space-x-10 py-2 items-center text-base leading-6 font-semibold text-slate-700">
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/" title="Home">
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/about" title="about">
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/services">Services</Link>
+              <Link href="/services" title="Services">
+                Services
+              </Link>
             </li>
             <li>
-              <Link href="/projects">Projects</Link>
+              <Link href="/projects" title="Projects">
+                Projects
+              </Link>
             </li>
             <li>
-              <Link href="/blog">Blog</Link>
+              <Link href="/blog" title="blog">
+                Blog
+              </Link>
             </li>
           </ul>
           <Link href="/contact-us">

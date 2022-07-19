@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Kodezam</title>
+        <title>Home|Kodezam</title>
         <meta
           name="google-site-verification"
           content="R7cyCgr7mGMdhXAsPYLk1LLRYvtv87-yCpQTx2jubdw"
@@ -47,6 +47,10 @@ export default function Home() {
         <meta
           name="keywords"
           content="Bangladeshi Software Company, Web Design, Web Development, Software development, Mobile Application development,E-commerce Solution,E-commerce Website development,ERP solution,Laravel,vuejs"
+        />
+        <meta
+          name="description"
+          content="We are the best option who care for you from outside of the box.We Build your Dream with the latest technology that can reach you exactly toward your dream. Have a Dream? Let us make it real."
         />
       </Head>
       <Hero />
